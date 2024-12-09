@@ -9,7 +9,6 @@ public class Hangman {
     private static final List<Character> WORD = new ArrayList<>();
     private static final List<Character> HIDDEN_WORD = new ArrayList<>();
     private static final List<Character> INPUT_LETTERS = new ArrayList<>();
-    private static final int MAX_COUNT_OF_MISTAKES = 16;
     private static final int MIN_WORD_LENGTH = 5;
     private static final int MAX_WORD_LENGTH = 13;
     private static final char HIDDEN_LETTER = '□';
@@ -17,9 +16,6 @@ public class Hangman {
     private static final String HYPHEN = "-";
     private static final String YES = "д";
     private static final String NO = "н";
-    private static final int EASY = 2;
-    private static final int MEDIUM = 3;
-    private static final int HARD = 4;
     private static final String[][] HANGMAN_PICTURE = new String[][] {
             {"""
                          
