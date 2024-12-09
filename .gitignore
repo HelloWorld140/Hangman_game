@@ -4,6 +4,8 @@ out/
 !**/src/test/**/out/
 .idea/
 Hangman_game.iml
+*.iml
+*.xml
 
 ### Eclipse ###
 .apt_generated
